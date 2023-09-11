@@ -1,0 +1,9 @@
+# Impede a indexação de diretórios; 
+# Options -Indexes
+# Ativa o módulo Rewrite, que faz a reescrita de URL.
+RewriteEngine on
+# Caso não exista um arquivo ou diretório especifico na url o redirecionamento ocorrerá.
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+# Define que todas as informações passadas na url posterior ao domínio será atribuída como string em uma variável global chamada de url $_GET[‘url’]
+RewriteRule ^(.*)$ index.php?url=$1

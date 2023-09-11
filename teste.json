@@ -1,0 +1,12 @@
+{
+    "modelo": "Passat",
+    "ano_fabricacao": "2021",
+    "ano_modelo": "2022",
+    "cor": "Preto",
+    "num_portas": "4",
+    "foto": "passat_golf_var.png",
+    "categoria_id": "1",
+    "montadora_id": "1",
+    "tipo_cambio": "Automático",
+    "tipo_direcao": "Elétrica"
+}
